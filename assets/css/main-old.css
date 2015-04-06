@@ -1,3 +1,6 @@
+nav.menu-principal {
+	background-color: #1e1e1e;
+}
 .centralizar {
 	margin-left: auto;
 	margin-right: auto;
@@ -12,9 +15,6 @@ h1 {
 body {
 	margin: 0px;
 }
-
-/* ###########   Cabeçalho   ###########*/
-
 .foto-user {
 	margin-top: -75px;
 	padding: 16.5;
@@ -60,7 +60,7 @@ body {
 
 }
 .menu-principal li {
-	margin-left: 10px;
+	margin-left: 30px;
 	color: #2799e3 !important;
 	font-family: 'Roboto', sans-serif;
 	font-size: 20px;
@@ -79,19 +79,12 @@ body {
 	text-align: center;
 }
 
-nav.menu-principal {
-	background-color: #1e1e1e;
-}
-
-/* ###########   Fim-Cabeçalho   ###########*/
-
 .titulo {
 	text-align: right;
 	font-size: 44px;
 	color: #4c1353;
 	font-family: 'Roboto', sans-serif;
 }
-
 .container-fluid, .navbar-right {
 	padding: 0px !important;
 }
@@ -107,9 +100,6 @@ hr.separador {
 	width: 100%;
 	margin-bottom: 40px;
 }
-
-/* ###########   Artigo   ###########*/
-
 .titulo-artigo {
 	color: #2799e3;
 	font-weight: bolder;
@@ -124,7 +114,6 @@ hr.separador {
 .corpo-artigo {
 	font-size: 18px;
 	text-indent: 10%;
-	text-align: justify;
 }
 .rodape-artigo {
 	color: #0a2c42;
@@ -140,12 +129,6 @@ hr.separador {
 .artigo {
 	margin-bottom: 20px;
 }
-
-/* ###########   Fim-Artigo   ###########*/
-
-
-/* ###########   Footer   ###########*/
-
 #rodape {
 	background-color: #1e1e1e !important;
 	color: white;
@@ -158,11 +141,4 @@ hr.separador {
 	font-weight: bold;
 }
 .rodape-corpo {
-}
-
-/* ###########   Fim-Footer   ###########*/
-
-.imagem{
-    
-    padding: 20px;
 }
