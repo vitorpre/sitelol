@@ -47,12 +47,36 @@ body {
 	box-shadow: none;
 	border-top: none;
 
-
 }
 
 .navbar-default .navbar-toggle {
 	margin-right: 20px;
 }
+/* ##### Estilização do botão de expandir menu para telas menores*/
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #A46EB3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #6B1E74;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color: #36213C;
+}
+/*#####*/
+
+/*#####Estilização do dropdown do menu*/
+.dropdown-menu {
+  background-color: #36213C;
+  border-top-color: #A46EB3;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #555;
+  background-color: #36213C;
+}
+.dropdown-menu>li>a:hover {  
+  background-color: rgb(40, 24, 45);
+}
+/*######*/
 
 .menu-principal {
 	border: none;
@@ -153,7 +177,7 @@ hr.separador {
 	font-weight: bold;
 }
 
-
+/* Media query para ajustar o alinhamento dos artigos da página principal em telas menores*/
 @media (max-width: 1200px) {
 	h3.esquerda {
 		text-align: center !important;
@@ -167,6 +191,7 @@ hr.separador {
 	text-align: left;
 }
 
+/* Media query para ajustar o alinhamento dos artigos da página principal em telas menores*/
 @media (max-width: 1200px) {
 	h3.direita {
 		text-align: center !important;
@@ -193,6 +218,7 @@ hr.separador {
 	color: white;
 }
 .rodape {
+	padding-top: 5px;
 	background-color: inherit;
 }
 .rodape-titulo {
@@ -204,6 +230,8 @@ hr.separador {
 
 /* ###########   Fim-Footer   ###########*/
 
+
+/*Não deixar imagem colada ao texto*/
 .imagem{
 
 	padding: 20px;
