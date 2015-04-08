@@ -9,3 +9,10 @@
 	text-indent: 10%;
 	text-align: justify;
 }
+
+.imagem-esquerda{
+	float: left;
+}
+.imagem-direita{
+	float: right;
+}
